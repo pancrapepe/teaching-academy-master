@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.teachingacademy.academy</groupId>
 	<artifactId>academy-parent</artifactId>
@@ -80,13 +82,17 @@
 			<id>nexus-releases</id>
 			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
 		</repository>
+		<site>
+			<id>nexus-academy-site</id>
+			<url>dav:http://localhost:8081/nexus/content/sites/academy-site</url>
+		</site>
 	</distributionManagement>
 	<scm>
 		<connection>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</connection>
 		<developerConnection>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</developerConnection>
 		<url>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</url>
-	  <tag>v2.0.7-RELEASE</tag>
-  </scm>
+		<tag>v2.0.7-RELEASE</tag>
+	</scm>
 
 	<build>
 		<pluginManagement>
