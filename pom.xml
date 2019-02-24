@@ -84,9 +84,9 @@
 		</repository>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git@github.com:pancrapepe/teaching-academy-master.git</connection>
-		<developerConnection>scm:git@github.com:pancrapepe/teaching-academy-master.git</developerConnection>
-		<url>scm:git@github.com:pancrapepe/teaching-academy-master.git</url>
+		<connection>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</connection>
+		<developerConnection>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</developerConnection>
+		<url>scm:git:git@github.com:pancrapepe/teaching-academy-master.git</url>
 	</scm>
 
 	<build>
